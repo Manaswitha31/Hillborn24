@@ -1,0 +1,1 @@
+'use strict';new Control.DatePicker('date1',{onSelect:function(){Validation.validate($('date1'));Validation.validate($('date2'));},dateFormat:"dd/MM/yyyy"});new Control.DatePicker('date2',{onSelect:function(){Validation.validate($('date1'));Validation.validate($('date2'));},dateFormat:"dd/MM/yyyy"});
